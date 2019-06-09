@@ -1,0 +1,79 @@
+
+
+.header{
+    background-color: #036aa6;
+}
+.navbar--blue{
+    background-color: #007cc3;
+}
+
+.breadcrumb--color{
+    background-color: white !important;
+}
+.intro__product-1{
+    background-image: url(../img/intro-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.intro__product-2{
+    background-image: url(../img/intro-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.btn-group--width .btn{
+    width: 100px !important;
+}
+/* CONTACT */
+.contact--detail h2{
+    font-size: 2rem;
+}
+.contact--detail p{
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.form__color .custom-radio .custom-control-input:checked~.custom-control-label::before{
+    background-color: green; 
+}
+
+.comment img{
+    width: 60px;
+}
+
+
+
+
+
+
+/*  */
+/******* MEDIA QUERY  ********/
+/*  */
+
+
+@media screen and (max-width: 1200px){
+
+}
+@media screen and (max-width: 992px){
+    .navbar--blue .nav-item{
+        border-right: none !important;
+    }
+}
+@media screen and (max-width: 768px){
+/* tablet screen */
+    .header__left, .header__right{
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 576px){
+/* man hinh dien thoai */
+    .btn-group-section{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .pagination--xs{
+        justify-content: center !important;
+    }
+}
